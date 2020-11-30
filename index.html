@@ -1,0 +1,26 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <input type="text" id="todotext" placeholder="What to do?">
+        <button class="button" onclick="addTOlist()" id="add" type="button">Add task</button>
+
+        <table id="tableTodo"> 
+            <tr id="clear">
+                <td><input id="lbl" type="text"></td>
+                <td><button class="button-done">Done</button></td>
+                <td><button class="button-remove" onclick="removeTask2()" >Remove</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

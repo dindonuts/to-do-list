@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100%;
+  background-color: #d6faf0;
+}
+
+.container {
+  place-self: center;
+  text-align: center;
+}
+
+input {
+  height: 2rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+button {
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.button {
+  height: 2.25rem;
+  padding: 0 1rem;
+  margin: .5rem 1.5rem;
+  background-color: rgb(219, 45, 126);
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover {
+  background-color: red;
+  transform: translateY(5px);
+  transition: ease-in-out 150ms;
+}
+
+
+table {
+  margin-top: 1rem;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  background-color: white;
+}
+
+.button-done,
+.button-remove {
+  justify-self: end;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.button-done {
+  background-color: rgb(138, 248, 138);
+}
+
+.button-done:hover {
+  background-color: green;
+}
+
+.button-remove {
+  background-color: rgb(250, 141, 141);
+}
+
+.button-remove:hover {
+  background-color: red;
+}
+
+.text-primary::-webkit-input-placeholder{
+  color: red;
+  
+}
